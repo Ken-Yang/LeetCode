@@ -17,7 +17,7 @@ import java.util.HashMap;
 public class HappyNumber {
 
     public HappyNumber() {
-        System.out.println(isHappy(9));
+        System.out.println(isHappy(19));
     }
 
     public static void main(String[] args) {
@@ -25,10 +25,10 @@ public class HappyNumber {
     }
 
     public boolean isHappy(int n) {
-        HashMap<Integer, Integer> h = new HashMap<>();
+        HashMap<Integer, Boolean> h = new HashMap<>();
         while (n != 1 && h.get(n) == null) {
-            h.put(n, 1);
-            String strTmp = String.valueOf(n);
+            h.put(n, true);
+            final String strTmp = String.valueOf(n);
             n = 0;
             for (char c : strTmp.toCharArray()) {
                 int iTmp = Character.getNumericValue(c);
