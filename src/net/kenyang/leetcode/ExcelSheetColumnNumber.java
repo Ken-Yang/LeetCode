@@ -1,5 +1,11 @@
 package net.kenyang.leetcode;
 
+/**
+ * Related to question Excel Sheet Column Title</br></br>
+ * Given a column title as appear in an Excel sheet, return its corresponding column number.
+ * @author Ken Yang
+ *
+ */
 public class ExcelSheetColumnNumber {
 
     public static void main(String[] args) {
