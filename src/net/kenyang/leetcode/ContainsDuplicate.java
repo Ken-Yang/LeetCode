@@ -1,6 +1,5 @@
 package net.kenyang.leetcode;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 /**

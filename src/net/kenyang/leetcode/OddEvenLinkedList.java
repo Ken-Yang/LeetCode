@@ -1,6 +1,5 @@
 package net.kenyang.leetcode;
 
-import net.kenyang.leetcode.ReverseLinkedList.ListNode;
 
 /**
  * Given a singly linked list, group all odd nodes together followed by the even
